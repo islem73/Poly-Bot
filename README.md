@@ -1,44 +1,42 @@
+# 🤖 PolyBot – Chatbot of École Polytechnique de Sousse
 
-# 🤖 PolyBot - Chatbot École Polytechnique de Sousse
+PolyBot is the official chatbot of École Polytechnique de Sousse. It is designed to provide accurate and instant answers to questions from students, prospective applicants, and visitors regarding programs, admissions, student life, accreditations, clubs, and more.
 
-PolyBot est le chatbot officiel de l'École Polytechnique de Sousse. Il est conçu pour fournir des réponses précises et instantanées aux questions des étudiants, futurs candidats et visiteurs concernant les formations, l'admission, la vie étudiante, les accréditations, les clubs, et bien plus encore.
+## ✨ Features
 
-## ✨ Fonctionnalités
+- Automated responses about:
+  - Engineering, Preparatory, Architecture, and Poly Digital School programs
+  - Admission procedures
+  - Accreditations (EUR-ACE)
+  - Student life, clubs, and social initiatives
+  - Certifications offered by the PolyFC training center
+  - GFI Incubator and entrepreneurial ecosystem
+  - International partnerships and mobility opportunities
+- Centralized information stored in a structured `companyInfo` file
+- Ready for integration into a website, mobile app, or messaging platform
 
-- Réponses automatiques sur :
-  - Les formations d’ingénieur, préparatoire, architecture et Poly Digital School
-  - Les modalités d’admission
-  - Les accréditations (EUR-ACE)
-  - La vie étudiante, clubs et projets sociétaux
-  - Les certifications proposées par le centre PolyFC
-  - L’incubateur GFI
-  - Les partenariats internationaux et opportunités de mobilité
-- Informations centralisées dans un fichier `companyInfo` structuré
-- Prêt à être intégré à un site web, une app mobile ou une interface de messagerie
+## 📁 `companyInfo.js` File
 
+The `companyInfo.js` file centralizes all data used by the chatbot, including:
+- Bot introduction
+- General overview of the school
+- Accreditations and certifications
+- All programs (Preparatory, Engineering, Architecture, Poly Digital School)
+- Student activities and clubs
+- International partnerships and mobility
+- Infrastructure and laboratories
+- GFI incubator and entrepreneurship support
 
-## 📁 Fichier `companyInfo.js`
+## 🛠️ Technologies Used
 
-Le fichier `companyInfo.js` centralise toutes les données utiles au chatbot, telles que :
-- Introduction du bot
-- Présentation générale de l’école
-- Accréditations et certifications
-- Toutes les formations (prépa, ingénieur, architecture, Poly Digital School)
-- Activités parascolaires et clubs
-- Partenariats et mobilités internationales
-- Infrastructure et laboratoires
-- Incubateur GFI et vie entrepreneuriale
+- JavaScript (Vanilla or within React/Vue/etc.)
+- Data structured as a JSON-like object
+- Easily integrated with NLP tools (e.g., Rasa, Dialogflow, GPT API)
 
-## 🛠️ Technologies Utilisées
+## 🚀 Getting Started
 
-- JavaScript (Vanilla ou intégré dans une stack React/Vue/etc.)
-- Données organisées en JSON-like object
-- Intégration possible avec NLP (type Rasa, Dialogflow ou GPT API)
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/islem73/Poly-Bot.git
 
-## 🚀 Lancer le projet
-
-1. Cloner le repo :
-```bash
-git clone https://github.com/islem73/polybot-chat.git
-cd polybot-chat
 
