@@ -36,13 +36,15 @@ The `companyInfo.js` file centralizes all data used by the chatbot, including:
 ## 🚀 Getting Started
 
 1. Clone the repository:
-   ```bash
+```bash
    git clone https://github.com/islem73/Poly-Bot.git
 ```
+---
 
 ## 🙋‍♂️ Author
 
 Built with ❤️ by **Islem Ben Ameur**
 
 ---
+
 
