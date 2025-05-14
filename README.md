@@ -29,9 +29,8 @@ The `companyInfo.js` file centralizes all data used by the chatbot, including:
 
 ## 🛠️ Technologies Used
 
-- JavaScript (Vanilla or within React/Vue/etc.)
+- JavaScript (React/Vue/etc.)
 - Data structured as a JSON-like object
-- Easily integrated with NLP tools (e.g., Rasa, Dialogflow, GPT API)
 
 ## 🚀 Getting Started
 
